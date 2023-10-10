@@ -1,0 +1,377 @@
+@media screen and (max-width: 1025px) {
+  .container {
+    width: auto;
+    margin: 0 2%;
+  }
+
+  .header-container {
+    width: auto;
+  }
+
+  /* -------project-container-start------ */
+  .project-img img {
+    width: 250px;
+    height: 280px;
+  }
+
+  .project-content p {
+    font-size: 20px;
+  }
+
+  .r-project-img img {
+    width: 250px;
+    height: 280px;
+  }
+
+  /* -------------react-project-container-------- */
+
+  .r-project-content p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  section {
+    padding: 30px 0;
+  }
+  .container {
+    width: auto;
+  }
+
+  .header-container {
+    height: auto;
+  }
+
+  .logo img {
+    width: 80px;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+  }
+
+  /* ------------home-container-start------- */
+
+  .home-container {
+    padding-top: 130px;
+  }
+
+  .home-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .home-content h1 {
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .home-content h2 {
+    padding-top: 6px;
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  .tech-l p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .tech-icon i {
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+
+  /* ---------about-container-start------- */
+
+  .about-container h3 {
+    font-size: 43px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  img {
+    width: auto;
+  }
+  .about-content h4 {
+    font-size: 34px;
+    font-weight: bold;
+  }
+
+  .about-card p {
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .btn-container button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #2d4a5e;
+    padding: 12px 25px;
+    color: #fff;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-top: 30px;
+    border: 1px solid transparent;
+    transition: all 0.3s linear;
+  }
+
+  /* -------project-container-start------ */
+
+  .project-cont h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .project-img img {
+    width: 200px;
+    height: 240px;
+  }
+
+  .project-content p {
+    font-size: 16px;
+  }
+
+  /* -------------react-project-container-------- */
+
+  .react-project-cont h4 {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .r-project-img img {
+    width: 200px;
+    height: 240px;
+  }
+
+  .r-project-content p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .container {
+    width: auto;
+  }
+
+  .header-container {
+    width: auto;
+    position: relative;
+  }
+
+  .logo img {
+    width: 50px;
+  }
+
+  nav {
+    background-color: #efefef;
+    width: 0%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    text-align: center;
+    padding: 20px 0;
+    display: none;
+    transition: all 0.3s linear;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  nav ul li {
+    margin-top: 15px;
+  }
+
+  .nav-menu {
+    display: block;
+  }
+
+  .right {
+    width: 100%;
+    display: block;
+  }
+
+  .nav-menu {
+    display: block;
+  }
+
+  /* ---------home-container-start---------- */
+
+  .home-container {
+    padding-top: 0px;
+  }
+
+  .home-content h1 {
+    padding-top: 40px;
+    font-size: 44px;
+  }
+
+  .home-content h2 {
+    font-size: 30px;
+  }
+
+  .tech-l p {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .tech-icon i {
+    font-size: 22px;
+  }
+
+  /* ----------about-container-start------- */
+
+  .about-card {
+    display: block;
+  }
+
+  .about-content h4 {
+    padding-top: 20px;
+    font-size: 38px;
+  }
+
+  .about-content p {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  /* ------------project-container-start--------- */
+
+  .project-container {
+    display: block;
+  }
+
+  .project {
+    margin-top: 30px;
+  }
+
+  .project:hover {
+    transform: none;
+  }
+
+  .project-img img {
+    width: 100%;
+    height: 450px;
+  }
+
+  /* --------------react-project-container--------- */
+
+  .r-project-container {
+    display: block;
+  }
+
+  .r-project {
+    margin-top: 30px;
+  }
+
+  .r-project:hover {
+    transform: none;
+  }
+
+  .r-project-img img {
+    width: 100%;
+    height: 450px;
+  }
+
+  /* ------------footer-container-start--------- */
+
+  .footer-container h6 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2d4a5e;
+  }
+
+  .footer-container p {
+    font-size: 14px;
+  }
+
+  .social-icon i {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 326px) {
+  /* ----------home-container-start---------- */
+
+  .home-content h1 {
+    padding-top: 40px;
+    font-size: 38px;
+  }
+  .home-content h2 {
+    padding-top: 40px;
+    font-size: 36px;
+  }
+
+  .home-content h2 {
+    padding-top: 5px;
+    font-size: 22px;
+  }
+
+  .tech-l p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .tech-icon i {
+    font-size: 18px;
+  }
+
+  .about-container h3 {
+    font-size: 36px;
+  }
+
+  .about-content h4 {
+    padding-top: 20px;
+    font-size: 28px;
+  }
+
+  .about-card p {
+    padding-top: 5px;
+    font-size: 14px;
+  }
+
+  .btn-container button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  /* -------------project-container-start------------ */
+
+  .project-cont h3 {
+    font-size: 34px;
+  }
+
+  .project:hover {
+    opacity: 0;
+    transform: scale(0);
+  }
+  .react-project-cont h4 {
+    font-size: 34px;
+  }
+  /* ----------footer-container-start------------- */
+
+  .footer-container h6 {
+    font-size: 18px;
+  }
+
+  .footer-container p {
+    font-size: 12px;
+  }
+
+  .social-icon {
+    padding-top: 15px;
+  }
+
+  .social-icon i {
+    font-size: 12px;
+  }
+}
